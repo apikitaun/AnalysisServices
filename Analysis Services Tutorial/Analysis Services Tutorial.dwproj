@@ -55,6 +55,10 @@
       <Name>Internet Sales Order Details.dim</Name>
       <FullPath>Internet Sales Order Details.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Sales Reason.dim</Name>
+      <FullPath>Sales Reason.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>

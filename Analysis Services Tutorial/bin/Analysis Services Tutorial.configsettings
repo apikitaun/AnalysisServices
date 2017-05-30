@@ -38,6 +38,9 @@
       <Dimension>
         <ID>Internet Sales</ID>
       </Dimension>
+      <Dimension>
+        <ID>Sales Reason</ID>
+      </Dimension>
     </Dimensions>
     <Cubes>
       <Cube>
@@ -56,6 +59,14 @@
             <Partitions>
               <Partition>
                 <ID>Reseller Sales</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Internet Sales Reason</ID>
+            <Partitions>
+              <Partition>
+                <ID>Internet Sales Reason</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>
