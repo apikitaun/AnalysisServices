@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="a2fbbe19-6c8d-4ba8-b6bf-e2a77670ff67" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="a2fbbe19-6c8d-4ba8-b6bf-e2a77670ff67" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Customer</ID>
   <Name>Customer</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="4" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-965" scrolltop="-507" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="85" x="3122" y="20108" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="8" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-965" scrolltop="-507" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="85" x="10372" y="16457" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -19,9 +19,9 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Geography (dbo.DimGeography)" left="20" top="7400" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4815" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Geography" left="20" top="7400" logicalid="4" controlid="1" masterid="0" hint1="0" hint2="0" width="4815" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
-              <ddsxmlobjectstreaminitwrapper binary="00080000cf12000088130000" />
+              <ddsxmlobjectstreaminitwrapper binary="000c0000cf12000088130000" />
             </control>
             <layoutobject>
               <ddsxmlobj>
@@ -30,9 +30,9 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Customer (dbo.DimCustomer)" left="324" top="0" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="4207" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Customer" left="324" top="0" logicalid="5" controlid="2" masterid="0" hint1="0" hint2="0" width="4207" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
-              <ddsxmlobjectstreaminitwrapper binary="000800006f10000088130000" />
+              <ddsxmlobjectstreaminitwrapper binary="000c00006f10000088130000" />
             </control>
             <layoutobject>
               <ddsxmlobj>
@@ -41,10 +41,10 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="2028" top="4700" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline" left="2028" top="4700" logicalid="6" controlid="3" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
-                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
               </ddsxmlobj>
             </control>
             <layoutobject>
@@ -187,6 +187,8 @@
         </AttributeRelationship>
       </AttributeRelationships>
       <InstanceSelection>MandatoryFilter</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
     <Attribute dwd:design-time-name="50ee93d1-3bf6-454c-99f6-780b89275a2c">
       <ID>Birth Date</ID>
@@ -203,6 +205,8 @@
       <OrderBy>Key</OrderBy>
       <AttributeHierarchyDisplayFolder>Demographic</AttributeHierarchyDisplayFolder>
       <InstanceSelection>MandatoryFilter</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
     <Attribute dwd:design-time-name="3050f865-4c84-456b-a98c-cf0675e46c7e">
       <ID>Marital Status</ID>
@@ -229,6 +233,8 @@
       <OrderBy>Key</OrderBy>
       <AttributeHierarchyDisplayFolder>Demographic</AttributeHierarchyDisplayFolder>
       <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
     <Attribute dwd:design-time-name="3176594c-713c-4309-aab6-173564693cfe">
       <ID>Gender</ID>
@@ -255,6 +261,8 @@
       <OrderBy>Key</OrderBy>
       <AttributeHierarchyDisplayFolder>Demographic</AttributeHierarchyDisplayFolder>
       <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
     <Attribute dwd:design-time-name="f7613b29-f022-43fe-8f15-1e3eb3e4f1aa">
       <ID>Yearly Income</ID>
@@ -269,9 +277,13 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <DiscretizationMethod>Automatic</DiscretizationMethod>
+      <DiscretizationBucketCount>5</DiscretizationBucketCount>
       <OrderBy>Key</OrderBy>
       <AttributeHierarchyDisplayFolder>Demographic</AttributeHierarchyDisplayFolder>
       <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
     <Attribute dwd:design-time-name="91b9ea5b-c9b9-4094-8f92-a0e1bf29e07c">
       <ID>Total Children</ID>
@@ -289,6 +301,8 @@
       <OrderBy>Key</OrderBy>
       <AttributeHierarchyDisplayFolder>Demographic</AttributeHierarchyDisplayFolder>
       <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
     <Attribute dwd:design-time-name="9ea60068-a030-4786-9fd2-c2e26922f88f">
       <ID>Number Children At Home</ID>
@@ -306,6 +320,8 @@
       <OrderBy>Key</OrderBy>
       <AttributeHierarchyDisplayFolder>Demographic</AttributeHierarchyDisplayFolder>
       <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
     <Attribute dwd:design-time-name="8d0827d3-2290-49d0-abb8-46f3a7bb87e8">
       <ID>English Education</ID>
@@ -324,6 +340,8 @@
       <OrderBy>Key</OrderBy>
       <AttributeHierarchyDisplayFolder>Demographic</AttributeHierarchyDisplayFolder>
       <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
     <Attribute dwd:design-time-name="9a8ec9c2-9640-42dc-8514-58f9303742e6">
       <ID>English Occupation</ID>
@@ -342,6 +360,8 @@
       <OrderBy>Key</OrderBy>
       <AttributeHierarchyDisplayFolder>Demographic</AttributeHierarchyDisplayFolder>
       <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
     <Attribute dwd:design-time-name="bbdb4c08-2414-4a80-9770-5a911885ebc4">
       <ID>House Owner Flag</ID>
@@ -368,6 +388,8 @@
       <OrderBy>Key</OrderBy>
       <AttributeHierarchyDisplayFolder>Demographic</AttributeHierarchyDisplayFolder>
       <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
     <Attribute dwd:design-time-name="96c59ac7-1090-447f-8a47-599b21bea367">
       <ID>Number Cars Owned</ID>
@@ -385,6 +407,8 @@
       <OrderBy>Key</OrderBy>
       <AttributeHierarchyDisplayFolder>Demographic</AttributeHierarchyDisplayFolder>
       <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
     <Attribute dwd:design-time-name="b3add7eb-d2c3-4816-b83c-bf92bd5c507d">
       <ID>Phone</ID>
@@ -402,6 +426,8 @@
       <OrderBy>Key</OrderBy>
       <AttributeHierarchyDisplayFolder>Contacts</AttributeHierarchyDisplayFolder>
       <InstanceSelection>MandatoryFilter</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
     <Attribute dwd:design-time-name="ea11997a-d18e-4177-9372-0d1913f21ca9">
       <ID>Date First Purchase</ID>
@@ -425,6 +451,8 @@
       </NameColumn>
       <OrderBy>Key</OrderBy>
       <InstanceSelection>FilteredList</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
     <Attribute dwd:design-time-name="fda3de78-246c-44bc-a378-c3d3f576d545">
       <ID>Commute Distance</ID>
@@ -443,6 +471,8 @@
       <OrderBy>Key</OrderBy>
       <AttributeHierarchyDisplayFolder>Demographic</AttributeHierarchyDisplayFolder>
       <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
     <Attribute dwd:design-time-name="0727d495-15cb-40d4-99a4-4de6358a5e5d">
       <ID>Geography</ID>
@@ -478,6 +508,8 @@
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <InstanceSelection>FilteredList</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
     <Attribute dwd:design-time-name="5e224817-92da-4a74-b60d-18da4ae93566">
       <ID>City</ID>
@@ -496,6 +528,8 @@
       <OrderBy>Key</OrderBy>
       <AttributeHierarchyDisplayFolder>Location</AttributeHierarchyDisplayFolder>
       <InstanceSelection>FilteredList</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
     <Attribute dwd:design-time-name="24353f24-8587-4af0-944b-44ff3ab4ca27">
       <ID>State Province Name</ID>
@@ -514,6 +548,8 @@
       <OrderBy>Key</OrderBy>
       <AttributeHierarchyDisplayFolder>Location</AttributeHierarchyDisplayFolder>
       <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
     <Attribute dwd:design-time-name="b3c16340-ee57-4210-9bc5-f611b28fe725">
       <ID>English Country Region Name</ID>
@@ -532,6 +568,8 @@
       <OrderBy>Key</OrderBy>
       <AttributeHierarchyDisplayFolder>Location</AttributeHierarchyDisplayFolder>
       <InstanceSelection>DropDown</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
     <Attribute dwd:design-time-name="1e60ea51-1a41-4fa4-8df0-4873746d6eae">
       <ID>Postal Code</ID>
@@ -550,6 +588,8 @@
       <OrderBy>Key</OrderBy>
       <AttributeHierarchyDisplayFolder>Location</AttributeHierarchyDisplayFolder>
       <InstanceSelection>FilteredList</InstanceSelection>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
     <Attribute dwd:design-time-name="2d67f745-7871-4bd3-9718-13e3f8c53848">
       <ID>Email Address</ID>
@@ -565,6 +605,8 @@
         </KeyColumn>
       </KeyColumns>
       <AttributeHierarchyDisplayFolder>Contacts</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
   </Attributes>
   <AttributeAllMemberName>All Customers</AttributeAllMemberName>
@@ -598,4 +640,5 @@
       </Levels>
     </Hierarchy>
   </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
 </Dimension>

@@ -590,6 +590,8 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <DiscretizationMethod>EqualAreas</DiscretizationMethod>
+      <DiscretizationBucketCount>5</DiscretizationBucketCount>
       <OrderBy>Key</OrderBy>
       <AttributeHierarchyDisplayFolder>Organization</AttributeHierarchyDisplayFolder>
       <InstanceSelection>List</InstanceSelection>
@@ -609,6 +611,8 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <DiscretizationMethod>Clusters</DiscretizationMethod>
+      <DiscretizationBucketCount>5</DiscretizationBucketCount>
       <OrderBy>Key</OrderBy>
       <AttributeHierarchyDisplayFolder>Organization</AttributeHierarchyDisplayFolder>
       <InstanceSelection>DropDown</InstanceSelection>
