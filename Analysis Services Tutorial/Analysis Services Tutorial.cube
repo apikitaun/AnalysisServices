@@ -616,10 +616,19 @@
         <Attribute dwd:design-time-name="483c5f18-678b-41a0-bf43-1aad83258596">
           <AttributeID>Status</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="adcbc1c1-c95a-4a2d-8479-e0ac8d57c963">
+          <AttributeID>Product Category Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0f485b70-1363-43af-8fc0-038dd44db5de">
+          <AttributeID>Product Subcategory Key</AttributeID>
+        </Attribute>
       </Attributes>
       <Hierarchies>
         <Hierarchy dwd:design-time-name="2e5b5493-9968-4442-a10b-adcfa31f9618">
           <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="873dc63d-ba11-4507-8455-1c5d86e2c306">
+          <HierarchyID>Hierarchy 1</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
@@ -672,7 +681,6 @@
         </Attribute>
         <Attribute dwd:design-time-name="27ba84c7-2c34-4405-be4d-20fad7539675">
           <AttributeID>Geography</AttributeID>
-          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
         <Attribute dwd:design-time-name="2245c971-55cd-46c3-a5ea-e5a3852c47de">
           <AttributeID>City</AttributeID>
