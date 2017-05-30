@@ -70,6 +70,22 @@
               </Partition>
             </Partitions>
           </MeasureGroup>
+          <MeasureGroup>
+            <ID>Sales Quota</ID>
+            <Partitions>
+              <Partition>
+                <ID>Sales Quota</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Sales Quota 1</ID>
+            <Partitions>
+              <Partition>
+                <ID>Sales Quota</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
         </MeasureGroups>
       </Cube>
     </Cubes>

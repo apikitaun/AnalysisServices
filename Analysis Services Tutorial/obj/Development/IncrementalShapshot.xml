@@ -26,7 +26,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>vKhMP+X/H9UDowIiqM640a5DZkQ=30/05/2017 20:01:1008/03/2012 7:39:54</TimeStamp>
+        <TimeStamp>aFWAeN6NrI5omz7qpDv0dHcUdho=30/05/2017 20:13:5208/03/2012 7:39:54</TimeStamp>
         <ID>
           <String>Adventure Works DW</String>
         </ID>
@@ -68,7 +68,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>hekVR4XSc0naS8r7qvmAfHW0MLo=30/05/2017 18:39:5408/03/2012 7:39:54</TimeStamp>
+        <TimeStamp>p/QL/S+jeV6BsgIMFM9Lk60M60M=30/05/2017 20:55:0208/03/2012 7:39:54</TimeStamp>
         <ID>
           <String>Employee</String>
         </ID>
@@ -82,7 +82,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>NBezilux5joWFCYPRX3SlB7BjwI=30/05/2017 18:57:2008/03/2012 7:39:54</TimeStamp>
+        <TimeStamp>5FvyUrj89sXGdsn5hUolkfDANoI=30/05/2017 21:00:0208/03/2012 7:39:54</TimeStamp>
         <ID>
           <String>Date</String>
         </ID>
@@ -103,7 +103,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>zO3yq1//XPGeWvvPNNujPIwwVlE=30/05/2017 20:06:0908/03/2012 7:39:541r8X+PUd4s5In3/YDS9Bl3ZVC4E=30/05/2017 20:01:1008/03/2012 7:39:54</TimeStamp>
+        <TimeStamp>u9zXx29T7nG8bZejXhcI2HUzYl0=30/05/2017 20:58:5608/03/2012 7:39:54kZVra9SV78p/JwBhs9Qp2Jxl4oI=30/05/2017 20:13:5208/03/2012 7:39:54</TimeStamp>
         <ID>
           <String>Adventure Works DW</String>
         </ID>
@@ -120,5 +120,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2017-05-30T18:06:23.143333Z</LastDeployed>
+  <LastDeployed>2017-05-30T19:00:19.02Z</LastDeployed>
 </DeploymentSnapshot>

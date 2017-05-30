@@ -84,29 +84,29 @@
               </Attributes>
               <Position x="232" y="20" />
             </Shape>
+            <Shape Id="Calendar Quarter" Expanded="false">
+              <Attributes>
+                <Attribute Id="Calendar Quarter" />
+              </Attributes>
+              <Position x="445" y="20" />
+            </Shape>
             <Shape Id="Fiscal Quarter" Expanded="false">
               <Attributes>
                 <Attribute Id="Fiscal Quarter" />
               </Attributes>
-              <Position x="445" y="20" />
+              <Position x="657" y="20" />
             </Shape>
             <Shape Id="Fiscal Semester" Expanded="false">
               <Attributes>
                 <Attribute Id="Fiscal Semester" />
               </Attributes>
-              <Position x="657" y="20" />
+              <Position x="870" y="20" />
             </Shape>
             <Shape Id="Fiscal Year" Expanded="false">
               <Attributes>
                 <Attribute Id="Fiscal Year" />
               </Attributes>
-              <Position x="870" y="20" />
-            </Shape>
-            <Shape Id="Calendar Quarter" Expanded="false">
-              <Attributes>
-                <Attribute Id="Calendar Quarter" />
-              </Attributes>
-              <Position x="445" y="68" />
+              <Position x="1082" y="20" />
             </Shape>
             <Shape Id="Calendar Semester" Expanded="false">
               <Attributes>
@@ -231,10 +231,6 @@
           <RelationshipType>Rigid</RelationshipType>
           <Name>Calendar Quarter</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="b0a975e2-452b-49e0-8137-7aaf72eb9fca">
-          <AttributeID>Fiscal Quarter</AttributeID>
-          <Name>Fiscal Quarter</Name>
-        </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>AttributeKey</OrderBy>
       <OrderByAttributeID>Month Number Of Year</OrderByAttributeID>
@@ -274,6 +270,10 @@
           <AttributeID>Calendar Semester</AttributeID>
           <RelationshipType>Rigid</RelationshipType>
           <Name>Calendar Semester</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="816062a1-0e1d-4d7c-aa0e-d45efff24846">
+          <AttributeID>Fiscal Quarter</AttributeID>
+          <Name>Fiscal Quarter</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
