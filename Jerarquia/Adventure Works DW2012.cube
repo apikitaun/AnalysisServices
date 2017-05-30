@@ -370,6 +370,11 @@
           <AttributeID>Calendar Semester</AttributeID>
         </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="12705607-4109-4add-ae03-6183c3bf2110">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="53ceddb8-a326-404b-b1cd-2e2b429da122">
       <ID>Sales Territory</ID>
@@ -543,6 +548,11 @@
           <AttributeID>Calendar Semester</AttributeID>
         </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="0a311bb6-49cf-423b-bb15-69b103bd578b">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="586cdf65-d307-42d7-be17-46cda4560972">
       <ID>Due Date</ID>
@@ -568,6 +578,11 @@
           <AttributeID>Calendar Semester</AttributeID>
         </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="a15332b9-5a57-4057-ab5a-4fa6706ff16a">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="fbb0632c-e61d-4428-8b45-18cd33972e3f">
       <ID>Geography</ID>

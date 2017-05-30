@@ -8,7 +8,7 @@
     <TransactionalDeployment>false</TransactionalDeployment>
     <PartitionDeployment>DeployPartitions</PartitionDeployment>
     <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
-    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <ProcessingOption>Default</ProcessingOption>
     <OutputScript></OutputScript>
     <ImpactAnalysisFile></ImpactAnalysisFile>
     <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
@@ -26,14 +26,14 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>Et0k38JR7qVaAQCf7MtLduMHS9k=30/05/2017 17:53:3830/05/2017 17:24:56</TimeStamp>
+        <TimeStamp>qVJ13ca9Pz6wSVxniXWEuxoxPp4=30/05/2017 18:11:1930/05/2017 17:24:56</TimeStamp>
         <ID>
           <String>Adventure Works DW2012</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>yb+eH9HgKS5w0Cj57OAPE95PMVc=30/05/2017 17:08:0530/05/2017 17:24:56</TimeStamp>
+        <TimeStamp>oviLXlIqSaJ+etva6chcsRFoj2Q=30/05/2017 18:16:0530/05/2017 17:24:56</TimeStamp>
         <ID>
           <String>Date</String>
         </ID>
@@ -54,7 +54,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>6X1B4YK00EdK6KVMwFuNWCVgmsI=30/05/2017 18:00:0530/05/2017 17:24:56</TimeStamp>
+        <TimeStamp>6X1B4YK00EdK6KVMwFuNWCVgmsI=30/05/2017 18:00:4330/05/2017 17:24:56</TimeStamp>
         <ID>
           <String>Product</String>
         </ID>
@@ -68,7 +68,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>ZN8viaKUhudgJTm85EcpoOyCWaw=30/05/2017 17:58:1030/05/2017 17:24:56vjxvZo50U34PMYRO3q9OmSC3R3M=30/05/2017 17:03:0330/05/2017 17:24:56</TimeStamp>
+        <TimeStamp>dL0DPIvsR/ang0LrM+1666M86H8=30/05/2017 18:07:0330/05/2017 17:24:56vjxvZo50U34PMYRO3q9OmSC3R3M=30/05/2017 17:03:0330/05/2017 17:24:56</TimeStamp>
         <ID>
           <String>Adventure Works DW2012</String>
         </ID>
@@ -85,5 +85,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2017-05-30T16:00:10.206667Z</LastDeployed>
+  <LastDeployed>2017-05-30T16:16:38.583333Z</LastDeployed>
 </DeploymentSnapshot>
