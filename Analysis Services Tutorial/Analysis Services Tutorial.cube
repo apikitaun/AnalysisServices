@@ -758,6 +758,9 @@
         <Attribute dwd:design-time-name="cad30c2d-0d29-4c8c-a878-cad6d83ef27c">
           <AttributeID>Year Opened</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="8b50e5ec-1161-475e-bcd2-040d71b53aa1">
+          <AttributeID>Geography Key</AttributeID>
+        </Attribute>
       </Attributes>
       <Hierarchies>
         <Hierarchy dwd:design-time-name="3b255034-0b9a-4881-8319-fc1c7e293e33">
@@ -1651,6 +1654,19 @@
               <Type>Granularity</Type>
             </Attribute>
           </Attributes>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="7b2e59a4-0ddd-4ac4-b6e2-3ed55bf00894">
+          <CubeDimensionID>Geography</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="93911e61-d030-41ca-ac7d-bf90290e4b00">
+              <AttributeID>Geography</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Reseller</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>Geography Key</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
       </Dimensions>
       <Partitions />
