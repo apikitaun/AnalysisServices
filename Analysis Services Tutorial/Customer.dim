@@ -94,6 +94,65 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
       <Value>85</Value>
     </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="191">
+            <Shape Id="Customer" Expanded="false">
+              <Attributes>
+                <Attribute Id="Customer" />
+                <Attribute Id="Birth Date" />
+                <Attribute Id="Commute Distance" />
+                <Attribute Id="Date First Purchase" />
+                <Attribute Id="English Education" />
+                <Attribute Id="Email Address" />
+                <Attribute Id="Gender" />
+                <Attribute Id="House Owner Flag" />
+                <Attribute Id="Marital Status" />
+                <Attribute Id="Number Cars Owned" />
+                <Attribute Id="Number Children At Home" />
+                <Attribute Id="English Occupation" />
+                <Attribute Id="Phone" />
+                <Attribute Id="Total Children" />
+                <Attribute Id="Yearly Income" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Geography" Expanded="false">
+              <Attributes>
+                <Attribute Id="Geography" />
+              </Attributes>
+              <Position x="263" y="20" />
+            </Shape>
+            <Shape Id="Postal Code" Expanded="false">
+              <Attributes>
+                <Attribute Id="Postal Code" />
+              </Attributes>
+              <Position x="507" y="20" />
+            </Shape>
+            <Shape Id="City" Expanded="false">
+              <Attributes>
+                <Attribute Id="City" />
+              </Attributes>
+              <Position x="751" y="20" />
+            </Shape>
+            <Shape Id="State Province Name" Expanded="false">
+              <Attributes>
+                <Attribute Id="State Province Name" />
+              </Attributes>
+              <Position x="995" y="20" />
+            </Shape>
+            <Shape Id="English Country Region Name" Expanded="false">
+              <Attributes>
+                <Attribute Id="English Country Region Name" />
+              </Attributes>
+              <Position x="1238" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
@@ -186,6 +245,7 @@
           <Name>Email Address</Name>
         </AttributeRelationship>
       </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <InstanceSelection>MandatoryFilter</InstanceSelection>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -489,18 +549,6 @@
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="5c0ef929-bb71-4305-ad2e-d4518ba529b4">
-          <AttributeID>City</AttributeID>
-          <Name>City</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="9665ade4-7bda-44b9-bc3f-5ab9df231d7a">
-          <AttributeID>State Province Name</AttributeID>
-          <Name>State-Province</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="d0ac8842-5bc2-43fd-9fe5-293f1ad14571">
-          <AttributeID>English Country Region Name</AttributeID>
-          <Name>Country-Region</Name>
-        </AttributeRelationship>
         <AttributeRelationship dwd:design-time-name="466fdf7b-5251-4887-b7ef-58f801d04bb8">
           <AttributeID>Postal Code</AttributeID>
           <Name>Postal Code</Name>
@@ -525,6 +573,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="f7a0d28b-c3c4-4371-bf8c-4bb88ccc2fde">
+          <AttributeID>State Province Name</AttributeID>
+          <Name>State-Province</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <AttributeHierarchyDisplayFolder>Location</AttributeHierarchyDisplayFolder>
       <InstanceSelection>FilteredList</InstanceSelection>
@@ -545,6 +599,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="3805bf8a-b173-4c3d-82df-5bd385d6be4d">
+          <AttributeID>English Country Region Name</AttributeID>
+          <Name>Country-Region</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <AttributeHierarchyDisplayFolder>Location</AttributeHierarchyDisplayFolder>
       <InstanceSelection>DropDown</InstanceSelection>
@@ -585,7 +645,14 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="3180a2f6-bd0a-4a12-959e-451beed04a9d">
+          <AttributeID>City</AttributeID>
+          <Name>City</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
       <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <AttributeHierarchyDisplayFolder>Location</AttributeHierarchyDisplayFolder>
       <InstanceSelection>FilteredList</InstanceSelection>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
@@ -631,6 +698,11 @@
           <ID>City</ID>
           <Name>City</Name>
           <SourceAttributeID>City</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="b0abb3c2-43e7-4d81-8f37-5c24775ccd8d">
+          <ID>Postal Code</ID>
+          <Name>Postal Code</Name>
+          <SourceAttributeID>Postal Code</SourceAttributeID>
         </Level>
         <Level dwd:design-time-name="23d86765-521b-4343-b997-db8408014a80">
           <ID>Customer</ID>

@@ -40,7 +40,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>ibygbGpO5FHKbr21M5mRJYBzNGA=30/05/2017 18:29:0008/03/2012 7:39:54</TimeStamp>
+        <TimeStamp>PVHqlYMU2q5ipSHZQma6AV7s6as=30/05/2017 18:44:2808/03/2012 7:39:54</TimeStamp>
         <ID>
           <String>Customer</String>
         </ID>
@@ -68,7 +68,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>fhtQrFLRKg9vsLEcn/kKg/QYs7A=30/05/2017 18:30:1008/03/2012 7:39:54</TimeStamp>
+        <TimeStamp>hekVR4XSc0naS8r7qvmAfHW0MLo=30/05/2017 18:39:5408/03/2012 7:39:54</TimeStamp>
         <ID>
           <String>Employee</String>
         </ID>
@@ -89,7 +89,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>tQZJIxfZ5RF5VfmeMZOkBM3Jc8A=08/03/2012 7:39:5408/03/2012 7:39:54Sajer01ViZI4ToCQQ0i/ez3WXgc=08/03/2012 7:39:5408/03/2012 7:39:54</TimeStamp>
+        <TimeStamp>tQZJIxfZ5RF5VfmeMZOkBM3Jc8A=30/05/2017 18:33:1508/03/2012 7:39:54Sajer01ViZI4ToCQQ0i/ez3WXgc=08/03/2012 7:39:5408/03/2012 7:39:54</TimeStamp>
         <ID>
           <String>Adventure Works DW</String>
         </ID>
@@ -106,5 +106,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2017-05-30T16:30:26.92Z</LastDeployed>
+  <LastDeployed>2017-05-30T16:44:45.353333Z</LastDeployed>
 </DeploymentSnapshot>

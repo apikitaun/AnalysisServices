@@ -351,6 +351,7 @@
         </KeyColumn>
       </KeyColumns>
       <OrderBy>Key</OrderBy>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
       <AttributeHierarchyDisplayFolder>Demographic</AttributeHierarchyDisplayFolder>
       <InstanceSelection>List</InstanceSelection>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
@@ -371,6 +372,7 @@
         </KeyColumn>
       </KeyColumns>
       <OrderBy>Key</OrderBy>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
       <AttributeHierarchyDisplayFolder>Organization</AttributeHierarchyDisplayFolder>
       <InstanceSelection>List</InstanceSelection>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
@@ -572,6 +574,7 @@
         </KeyColumn>
       </KeyColumns>
       <OrderBy>Key</OrderBy>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
       <AttributeHierarchyDisplayFolder>Demographic</AttributeHierarchyDisplayFolder>
       <InstanceSelection>DropDown</InstanceSelection>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
@@ -764,6 +767,7 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
       <AttributeHierarchyDisplayFolder>Organization</AttributeHierarchyDisplayFolder>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -781,6 +785,7 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
       <AttributeHierarchyDisplayFolder>Organization</AttributeHierarchyDisplayFolder>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
