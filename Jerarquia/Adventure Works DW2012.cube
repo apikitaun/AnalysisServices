@@ -442,6 +442,11 @@
           <AttributeID>Postal Code</AttributeID>
         </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="46559231-2ec2-4098-be8f-3a4aa24eaaf2">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="7a657d19-2279-4083-a3ca-883f1de901e1">
       <ID>Product</ID>
