@@ -500,7 +500,24 @@
         <Attribute dwd:design-time-name="15d187d8-8ef6-4c86-a235-f585b53bfaac">
           <AttributeID>Status</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="86d3f4bf-db19-4676-9c59-71a29b31a982">
+          <AttributeID>Model Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2e0b2295-4a39-4ae7-8489-581fe12636ba">
+          <AttributeID>English Product Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8ed78191-b7ac-4d16-84b5-1da69ed43a17">
+          <AttributeID>Class</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7a7de99b-f55b-49e6-bbe9-b955be8e284a">
+          <AttributeID>Style</AttributeID>
+        </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="6bf8facc-f5fe-41e9-b9df-085749ed5836">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="63b0a7ea-feda-4387-be2d-d24b89403641">
       <ID>Ship Date</ID>

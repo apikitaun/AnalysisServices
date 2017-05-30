@@ -653,6 +653,13 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
+                  <xs:element name="ProductLineName" msdata:ReadOnly="true" msprop:Description="" msprop:ComputedColumnExpression="CASE ProductLine&#xD;&#xA;&#x9;WHEN 'M' THEN 'Mountain'&#xD;&#xA;&#x9;WHEN 'R' THEN 'Road'&#xD;&#xA;&#x9;WHEN 'S' THEN 'Accessory'&#xD;&#xA;&#x9;WHEN 'T' THEN 'Touring'&#xD;&#xA;&#x9;ELSE 'Components'&#xD;&#xA;END" msprop:IsLogical="True" msprop:design-time-name="fd2fa7dd-1ccf-4890-afeb-8e0c96993227" msprop:DbColumnName="ProductLineName">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
@@ -884,7 +891,7 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="FullName" msdata:ReadOnly="true" msprop:Description="" msprop:ComputedColumnExpression="CASE&#xD;&#xA;WHEN MiddleName IS NULL THEN&#xD;&#xA;FirstName + ' ' +LastName&#xD;&#xA;ELSE&#xD;&#xA;FirstName+' '+MiddleName+' ' +LastName&#xD;&#xA;END" msprop:IsLogical="True" msprop:design-time-name="116a4bf2-cd89-48aa-b41f-d2eda1ccfff1" msprop:DbColumnName="FullName" minOccurs="0">
+                  <xs:element name="FullName" msdata:ReadOnly="true" msprop:design-time-name="116a4bf2-cd89-48aa-b41f-d2eda1ccfff1" msprop:IsLogical="True" msprop:Description="" msprop:DbColumnName="FullName" msprop:ComputedColumnExpression="CASE&#xD;&#xA;WHEN MiddleName IS NULL THEN&#xD;&#xA;FirstName + ' ' +LastName&#xD;&#xA;ELSE&#xD;&#xA;FirstName+' '+MiddleName+' ' +LastName&#xD;&#xA;END" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="152" />

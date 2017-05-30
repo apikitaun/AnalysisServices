@@ -8,7 +8,7 @@
     <TransactionalDeployment>false</TransactionalDeployment>
     <PartitionDeployment>DeployPartitions</PartitionDeployment>
     <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
-    <ProcessingOption>Default</ProcessingOption>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
     <OutputScript></OutputScript>
     <ImpactAnalysisFile></ImpactAnalysisFile>
     <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
@@ -26,7 +26,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>Q3HhHL5gLX9DR0X5TnnWHAxcbBk=30/05/2017 17:31:1330/05/2017 17:24:56</TimeStamp>
+        <TimeStamp>Et0k38JR7qVaAQCf7MtLduMHS9k=30/05/2017 17:53:3830/05/2017 17:24:56</TimeStamp>
         <ID>
           <String>Adventure Works DW2012</String>
         </ID>
@@ -54,7 +54,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>Gi9eEe0HkbqbBXipOwHyoMdX13I=30/05/2017 17:14:1330/05/2017 17:24:56</TimeStamp>
+        <TimeStamp>6X1B4YK00EdK6KVMwFuNWCVgmsI=30/05/2017 18:00:0530/05/2017 17:24:56</TimeStamp>
         <ID>
           <String>Product</String>
         </ID>
@@ -68,7 +68,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>8j0gb3H9Gqmb0JMK2ttZ3YFtPYc=30/05/2017 17:29:3430/05/2017 17:24:56vjxvZo50U34PMYRO3q9OmSC3R3M=30/05/2017 17:03:0330/05/2017 17:24:56</TimeStamp>
+        <TimeStamp>ZN8viaKUhudgJTm85EcpoOyCWaw=30/05/2017 17:58:1030/05/2017 17:24:56vjxvZo50U34PMYRO3q9OmSC3R3M=30/05/2017 17:03:0330/05/2017 17:24:56</TimeStamp>
         <ID>
           <String>Adventure Works DW2012</String>
         </ID>
@@ -85,5 +85,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2017-05-30T15:48:22.24Z</LastDeployed>
+  <LastDeployed>2017-05-30T16:00:10.206667Z</LastDeployed>
 </DeploymentSnapshot>
