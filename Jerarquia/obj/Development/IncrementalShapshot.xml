@@ -19,56 +19,56 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>60Lt9K26uNHe6030ChwuUsnlaR4=30/05/2017 17:00:2730/05/2017 17:00:27</TimeStamp>
+        <TimeStamp>60Lt9K26uNHe6030ChwuUsnlaR4=30/05/2017 17:00:2730/05/2017 17:24:56</TimeStamp>
         <ID>
           <String>Adventure Works DW2012</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>BJX9BGQsO+YZxspmWz0p2NKBsnA=30/05/2017 17:10:1130/05/2017 17:01:02</TimeStamp>
+        <TimeStamp>Q3HhHL5gLX9DR0X5TnnWHAxcbBk=30/05/2017 17:31:1330/05/2017 17:24:56</TimeStamp>
         <ID>
           <String>Adventure Works DW2012</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>yb+eH9HgKS5w0Cj57OAPE95PMVc=30/05/2017 17:08:0530/05/2017 17:03:02</TimeStamp>
+        <TimeStamp>yb+eH9HgKS5w0Cj57OAPE95PMVc=30/05/2017 17:08:0530/05/2017 17:24:56</TimeStamp>
         <ID>
           <String>Date</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>YuwyJYRj61E5aMC3bRThcyqUXZg=30/05/2017 17:03:0330/05/2017 17:03:02</TimeStamp>
+        <TimeStamp>YuwyJYRj61E5aMC3bRThcyqUXZg=30/05/2017 17:03:0330/05/2017 17:24:56</TimeStamp>
         <ID>
           <String>Sales Territory</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>m/6kDzTHs8Z48Z4F98NlZye9hV8=30/05/2017 17:13:1230/05/2017 17:03:02</TimeStamp>
+        <TimeStamp>gBKU+Lo49F/B7o9dwT80A/joc+s=30/05/2017 17:47:4330/05/2017 17:24:56</TimeStamp>
         <ID>
           <String>Customer</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>Gi9eEe0HkbqbBXipOwHyoMdX13I=30/05/2017 17:14:1330/05/2017 17:03:02</TimeStamp>
+        <TimeStamp>Gi9eEe0HkbqbBXipOwHyoMdX13I=30/05/2017 17:14:1330/05/2017 17:24:56</TimeStamp>
         <ID>
           <String>Product</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>u68xO4E4Wk6FGLkWgFtYFFrg3r4=30/05/2017 17:10:4130/05/2017 17:10:30</TimeStamp>
+        <TimeStamp>u68xO4E4Wk6FGLkWgFtYFFrg3r4=30/05/2017 17:10:4130/05/2017 17:24:56</TimeStamp>
         <ID>
           <String>Geography</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>54fsXQL45WSzslWDFi9pdEpnByM=30/05/2017 17:15:2530/05/2017 17:03:01vjxvZo50U34PMYRO3q9OmSC3R3M=30/05/2017 17:03:0330/05/2017 17:03:02</TimeStamp>
+        <TimeStamp>8j0gb3H9Gqmb0JMK2ttZ3YFtPYc=30/05/2017 17:29:3430/05/2017 17:24:56vjxvZo50U34PMYRO3q9OmSC3R3M=30/05/2017 17:03:0330/05/2017 17:24:56</TimeStamp>
         <ID>
           <String>Adventure Works DW2012</String>
         </ID>
@@ -76,7 +76,7 @@
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
-      <TimeStamp>pa6KD7ayMInkpksfkmBSpwq4HdU=30/05/2017 17:00:0030/05/2017 16:59:57</TimeStamp>
+      <TimeStamp>pa6KD7ayMInkpksfkmBSpwq4HdU=30/05/2017 17:00:0030/05/2017 17:24:56</TimeStamp>
       <ID>
         <String>Jerarquia</String>
       </ID>
@@ -85,5 +85,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2017-05-30T15:15:35.453333Z</LastDeployed>
+  <LastDeployed>2017-05-30T15:48:22.24Z</LastDeployed>
 </DeploymentSnapshot>
