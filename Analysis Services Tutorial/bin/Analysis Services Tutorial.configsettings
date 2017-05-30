@@ -35,6 +35,9 @@
       <Dimension>
         <ID>Date</ID>
       </Dimension>
+      <Dimension>
+        <ID>Internet Sales</ID>
+      </Dimension>
     </Dimensions>
     <Cubes>
       <Cube>

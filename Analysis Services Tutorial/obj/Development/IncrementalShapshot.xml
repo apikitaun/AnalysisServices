@@ -88,8 +88,15 @@
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>NNH7ArRn2Jv5GvPHHCOyAwwvng0=30/05/2017 19:53:1230/05/2017 19:50:53</TimeStamp>
+        <ID>
+          <String>Internet Sales</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>87vCxVIXpX53ofC3cne8zYHiqUQ=30/05/2017 19:45:2408/03/2012 7:39:54Sajer01ViZI4ToCQQ0i/ez3WXgc=08/03/2012 7:39:5408/03/2012 7:39:54</TimeStamp>
+        <TimeStamp>zJXs4VvyV+UwFD23wI7Uc7h5AjY=30/05/2017 19:54:0608/03/2012 7:39:54Sajer01ViZI4ToCQQ0i/ez3WXgc=08/03/2012 7:39:5408/03/2012 7:39:54</TimeStamp>
         <ID>
           <String>Adventure Works DW</String>
         </ID>
@@ -106,5 +113,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2017-05-30T17:46:07.6Z</LastDeployed>
+  <LastDeployed>2017-05-30T17:54:14.243333Z</LastDeployed>
 </DeploymentSnapshot>
