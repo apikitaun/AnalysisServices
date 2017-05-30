@@ -33,7 +33,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>neTKVJlWrjhfv8do4xCG+I/goN0=08/03/2012 7:39:5408/03/2012 7:39:54</TimeStamp>
+        <TimeStamp>lkjm9zs01VKlTtXd9CdjjYCm/64=30/05/2017 18:55:5708/03/2012 7:39:54</TimeStamp>
         <ID>
           <String>Product</String>
         </ID>
@@ -54,14 +54,14 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>Ww+BRUpAk1jeGB0ixlurVKM7qxQ=08/03/2012 7:39:5408/03/2012 7:39:54</TimeStamp>
+        <TimeStamp>qu147gLJe8nfuo+69Bi58cYKb5c=30/05/2017 18:58:0108/03/2012 7:39:54</TimeStamp>
         <ID>
           <String>Geography</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>xavqfb8Lbl5+1TC0oGyqHpqy8BA=08/03/2012 7:39:5408/03/2012 7:39:54</TimeStamp>
+        <TimeStamp>JHDeQJC1hduo1sBoY4ZR33/asy4=30/05/2017 18:55:2808/03/2012 7:39:54</TimeStamp>
         <ID>
           <String>Sales Territory</String>
         </ID>
@@ -82,7 +82,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>046HoNLr9efUxR7+jkXOVNvoM1I=30/05/2017 18:48:3108/03/2012 7:39:54</TimeStamp>
+        <TimeStamp>NBezilux5joWFCYPRX3SlB7BjwI=30/05/2017 18:57:2008/03/2012 7:39:54</TimeStamp>
         <ID>
           <String>Date</String>
         </ID>
@@ -106,5 +106,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2017-05-30T16:53:51.806667Z</LastDeployed>
+  <LastDeployed>2017-05-30T16:58:20.94Z</LastDeployed>
 </DeploymentSnapshot>

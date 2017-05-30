@@ -77,48 +77,48 @@
               </Attributes>
               <Position x="20" y="20" />
             </Shape>
-            <Shape Id="Fiscal Semester" Expanded="false">
-              <Attributes>
-                <Attribute Id="Fiscal Semester" />
-              </Attributes>
-              <Position x="232" y="20" />
-            </Shape>
-            <Shape Id="Fiscal Year" Expanded="false">
-              <Attributes>
-                <Attribute Id="Fiscal Year" />
-              </Attributes>
-              <Position x="232" y="68" />
-            </Shape>
-            <Shape Id="Fiscal Quarter" Expanded="false">
-              <Attributes>
-                <Attribute Id="Fiscal Quarter" />
-              </Attributes>
-              <Position x="232" y="116" />
-            </Shape>
             <Shape Id="Month Name" Expanded="true">
               <Attributes>
                 <Attribute Id="Month Name" />
                 <Attribute Id="Month Number Of Year" />
               </Attributes>
-              <Position x="232" y="164" />
+              <Position x="232" y="20" />
+            </Shape>
+            <Shape Id="Fiscal Quarter" Expanded="false">
+              <Attributes>
+                <Attribute Id="Fiscal Quarter" />
+              </Attributes>
+              <Position x="445" y="20" />
+            </Shape>
+            <Shape Id="Fiscal Semester" Expanded="false">
+              <Attributes>
+                <Attribute Id="Fiscal Semester" />
+              </Attributes>
+              <Position x="657" y="20" />
+            </Shape>
+            <Shape Id="Fiscal Year" Expanded="false">
+              <Attributes>
+                <Attribute Id="Fiscal Year" />
+              </Attributes>
+              <Position x="870" y="20" />
             </Shape>
             <Shape Id="Calendar Quarter" Expanded="false">
               <Attributes>
                 <Attribute Id="Calendar Quarter" />
               </Attributes>
-              <Position x="445" y="164" />
+              <Position x="445" y="68" />
             </Shape>
             <Shape Id="Calendar Semester" Expanded="false">
               <Attributes>
                 <Attribute Id="Calendar Semester" />
               </Attributes>
-              <Position x="657" y="164" />
+              <Position x="657" y="68" />
             </Shape>
             <Shape Id="Calendar Year" Expanded="false">
               <Attributes>
                 <Attribute Id="Calendar Year" />
               </Attributes>
-              <Position x="870" y="164" />
+              <Position x="870" y="68" />
             </Shape>
           </Shapes>
         </DiagramLayout>
@@ -168,18 +168,6 @@
         <AttributeRelationship dwd:design-time-name="7e0a5737-d10c-4732-9964-6d865be07edc">
           <AttributeID>Month Name</AttributeID>
           <Name>Month Name</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="8bd2eed5-7dbd-485f-be27-8893adfda965">
-          <AttributeID>Fiscal Quarter</AttributeID>
-          <Name>Fiscal Quarter</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="ce2768c5-b842-4719-8570-203d6718b8fb">
-          <AttributeID>Fiscal Year</AttributeID>
-          <Name>Fiscal Year</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="5b9d44a9-c053-4e2f-a8dd-813fc5aee379">
-          <AttributeID>Fiscal Semester</AttributeID>
-          <Name>Fiscal Semester</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
@@ -242,6 +230,10 @@
           <AttributeID>Calendar Quarter</AttributeID>
           <RelationshipType>Rigid</RelationshipType>
           <Name>Calendar Quarter</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b0a975e2-452b-49e0-8137-7aaf72eb9fca">
+          <AttributeID>Fiscal Quarter</AttributeID>
+          <Name>Fiscal Quarter</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>AttributeKey</OrderBy>
@@ -380,6 +372,12 @@
           <ColumnID>FiscalQuarterDesc</ColumnID>
         </Source>
       </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="6bbe99f4-5076-41a3-8775-73ed28a02d96">
+          <AttributeID>Fiscal Semester</AttributeID>
+          <Name>Fiscal Semester</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -437,6 +435,12 @@
           <ColumnID>FiscalSemesterDesc</ColumnID>
         </Source>
       </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="bdde94f5-0e03-41eb-ab87-5d0b7455e2b3">
+          <AttributeID>Fiscal Year</AttributeID>
+          <Name>Fiscal Year</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
